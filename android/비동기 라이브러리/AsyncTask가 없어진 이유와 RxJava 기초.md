@@ -1,7 +1,7 @@
 # Rxjava + Retrofit2
 참고주소
-[Android AsyncTask Deprecated](https://www.techyourchance.com/asynctask-deprecated/)
-[[Android] RxJava2 + Retrofit2](https://dev-eunji.tistory.com/20)
+[Android AsyncTask Deprecated](https://www.techyourchance.com/asynctask-deprecated/),
+[[Android] RxJava2 + Retrofit2](https://dev-eunji.tistory.com/20),
 [Rxjava - 스케쥴러란?](https://yunzai.dev/posts/RxJava_%EC%8A%A4%EC%BC%80%EC%A5%B4%EB%9F%AC%EB%9E%80_%EC%8A%A4%EC%BC%80%EC%A5%B4%EB%9F%AC%EC%9D%98_%EC%A2%85%EB%A5%98(1)/)
 
 Android AsyncTask가 Deprecated 되었다. 구글에서 deprecated한 이유는 아래와 같다.<br>
