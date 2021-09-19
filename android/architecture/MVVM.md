@@ -15,3 +15,5 @@
 뷰모델 팩토리를 사용하는 이유 <br>
 -> 뷰모델 인스턴스를 만들 수 있기 때문이다.
 
+## Roomdb에 ViewModel
+참고주소 - [안드로이드 가이드](https://developer.android.com/codelabs/android-room-with-a-view-kotlin?hl=ko#0)
