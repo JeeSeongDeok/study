@@ -15,20 +15,22 @@
 
 # 메모리 구조
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnyV7n%2FbtqITvcHjTA%2Fdk2V9ejhCT1P5Zngumuag1%2Fimg.png">
-코드 영역: 사용자가 실행 명령을 내리면, OS가 HDD에서 실행 코드를 메모리를 올리고, CPU는 코드 영역에 저장된 명령어를 처리함
-데이터 영역: 프로그램의 전역 변수와 정적 변수가 저장되는 영역
-힙 영역: 프로그래머가 직접 관리할 수 있는 메모리 영역으로 이 공간에 메모리를 할당하는 것을 동적 할당이라고 부릅니다. Java에서는 가비지 컬렉터가 자동으로 해제해줍니다. 힙 영역은 스택 영역과 달리 낮은 주소에서 높은 주소로 메모리가 할당됩니다.
-스택 영역: 함수의 호출과 함께 할당되며 지역 변수와 매개 변수가 저장되는 영역입니다. 스택 영역에 저장되는 함수의 호출 정보를 스택프레임이라고 합니다. 스택 영역은 함수의 호출이 완료되면 소멸합니다. 스택 영역은 높은 주소에서 낮은 주소로 메모리가 할당됩니다.
+
+- 코드 영역: 사용자가 실행 명령을 내리면, OS가 HDD에서 실행 코드를 메모리를 올리고, CPU는 코드 영역에 저장된 명령어를 처리함
+- 데이터 영역: 프로그램의 전역 변수와 정적 변수가 저장되는 영역
+- 힙 영역: 프로그래머가 직접 관리할 수 있는 메모리 영역으로 이 공간에 메모리를 할당하는 것을 동적 할당이라고 부릅니다. Java에서는 가비지 컬렉터가 자동으로 해제해줍니다. 힙 영역은 스택 영역과 달리 낮은 주소에서 높은 주소로 메모리가 할당됩니다.
+- 스택 영역: 함수의 호출과 함께 할당되며 지역 변수와 매개 변수가 저장되는 영역입니다. 스택 영역에 저장되는 함수의 호출 정보를 스택프레임이라고 합니다. 스택 영역은 함수의 호출이 완료되면 소멸합니다. 스택 영역은 높은 주소에서 낮은 주소로 메모리가 할당됩니다.
 
 # OSI 7 계층
 <img src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbq5dyv%2FbtqJls7HC1T%2FcTY7UKcQ4ZxmgxtenNf9MK%2Fimg.jpg">
-Physical Layer: 데이터를 전기신호로 바꿔줌
-DataLink Layer: 데이터의 물리적인 전송과 에러 검출 흐름 제어 담당
-Network Layer: 패킷을 목적지까지 가장 빠른 길로 전송함
-Transport Layer: 최종 수신 프로세스로 데이터 전송을 담당
-Session Layer: 컴퓨터끼리 통신을 위하 세션을 만드는 담당
-Presentation Layer: Format을 정의
-Application Layer: 사용자와 직접 상호작용함
+
+- Physical Layer: 데이터를 전기신호로 바꿔줌
+- DataLink Layer: 데이터의 물리적인 전송과 에러 검출 흐름 제어 담당
+- Network Layer: 패킷을 목적지까지 가장 빠른 길로 전송함
+- Transport Layer: 최종 수신 프로세스로 데이터 전송을 담당
+- Session Layer: 컴퓨터끼리 통신을 위하 세션을 만드는 담당
+- Presentation Layer: Format을 정의
+- Application Layer: 사용자와 직접 상호작용함
 
 # 디자인 패턴
 ## Singletone
