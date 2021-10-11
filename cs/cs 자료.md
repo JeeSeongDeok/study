@@ -199,4 +199,15 @@ Iterable은 하위클래스에서 iterator()의 생성을 강제하는 역할을
 값을 읽고 쓰는 비-원자적 연산 작업이 하나의 스레드에서만 일어나고, 다른 스레드들에서 값을 읽는 원사적 연산만 하면 volatile로 충분히 동기화 가능
 그러나 다수의 스레드에서 읽고 쓰는 작업을 해야하는 경우 synchronized, concurrent 패키지와 atomic 클래스를 이용하는 방법이 있다.
 
+# StringBuffer와 StringBuilder
+
+StringBuffer/StringBuilder는 String과 다르게 동작 문자열 연산 등으로 기존 객체의 공간이 부족하게 되는 경우, 기존의 버퍼 크기를 늘리며 유연하게 동작합니다. StringBuffer와 StringBuilder 클래스가 제공하는 메서드는 서로 동일함
+
+- StringBuffer는 각 메서드별로 Synchronized Keyword가 존재하여, 멀티스레드 환경에서도 동기화를 지원.
+- 반면, StringBuilder는 동기화를 보장하지 않음.
+
+그렇기때문에 멀티스레드 환경이라면 값 동기화 보장을 위해 StringBuffer를 사용하고,
+
+단일스레드 환경이라면 StringBuilder를 사용하는 것이 좋습니다. 단일 스레드환경에서 StringBuffer를 사용한다고 문제가 되는 것은 아니지만, 동기화 관련 처리로 인해 StringBuilder에 비해 성능이 좋지 않습니다.
+
 
