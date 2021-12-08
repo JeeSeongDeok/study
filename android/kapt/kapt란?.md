@@ -1,6 +1,3 @@
-프로젝트 진행 중 kapt를 찾을 수 없다는 에러가 나타나서 kapt가 어떤 것인지 알아보았고, 정보를 공유하기 위해서 포스팅했다.
-
-[##_Image|kage@cWqGBI/btrnoCQskUf/tQLofgIiL23thfSatHZe50/img.png|CDM|1.3|{"originWidth":1497,"originHeight":60,"style":"alignCenter","caption":"에러 - Could not find method kapt() for arguments"}_##]
 
 ### **kapt 이란?**
 
