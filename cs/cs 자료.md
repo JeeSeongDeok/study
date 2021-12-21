@@ -211,3 +211,14 @@ StringBuffer/StringBuilder는 String과 다르게 동작 문자열 연산 등으
 단일스레드 환경이라면 StringBuilder를 사용하는 것이 좋습니다. 단일 스레드환경에서 StringBuffer를 사용한다고 문제가 되는 것은 아니지만, 동기화 관련 처리로 인해 StringBuilder에 비해 성능이 좋지 않습니다.
 
 
+## 웹 동작 방식
+1. 브라우저에 http를 입력
+2. 브라우저는 DNS를 통해서 진짜 주소를 찾음
+3. HTTP 프로토콜을 사용하여 HTTP 요청 메세지를 생성함
+4. TCP/IP 연결을 통해 HTTP 요청이 서버로 전송됨
+5. 서버는 HTTP 프로토콜을 활용해 HTTP 응답 메세지를 생성함
+6. TCP/IP 연결을 통해 요청한 컴퓨터로 전송
+7. 도착한 HTTP 응답 메세지는 웹페이지 데이터로 변환, 웹브라우저에 의해 출력되어 사용자가 볼 수 있게 됨
+
+## HTTP 프로토콜
+TCP/IP위에서 작동됨. HTTP는 상태를 가지고 있지 않은 Stateless 프로토콜
