@@ -24,5 +24,4 @@
 
 <p> 모든 인터넷 종류들을 하나하나식 다 불러서 비교 후, 이게 Inet4Adress인지 확인 후 ip를 리턴하는 형식이다. </p>
 
-![image](https://user-images.githubusercontent.com/23256819/167742350-03949769-ce00-44ad-9836-d1ad537953e8.png)
-
+![제목 없음](https://user-images.githubusercontent.com/23256819/167971253-999d0d8d-3f3e-4863-9b6c-b69363d30c5a.png)
