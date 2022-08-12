@@ -1,30 +1,18 @@
 <html>
     <head>
-        <title>Vue Component Registration</title>
+        <meeta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vue Registration Quiz</title>
     </head>
     <body>
         <div id="app">
+            <header>
+                <h3>{{message}}</h3>
+            </header>
             <todo-footer></todo-footer>
-            {{ message }}
             <todo-list></todo-list>
         </div>
         <script src="http://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
-        <script>
-            Vue.component(`todo-footer`, {
-                template: `<div>This is another global child component</div>`
-            });
-            var todoList = {
-                template: `<div>This is another local child componenet</div>`
-            };
-            new Vue({
-                el: `#app`,
-                data: {
-                    message: 'This is a parent component'
-                },
-                components: {
-                    'todo-list': todoList
-                }
-            });
-        </script>
+        <script src="app.js"></script>
     </body>
 </html>
